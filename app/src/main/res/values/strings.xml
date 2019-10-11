@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 <string name="app_name">CalendarViewProject</string>
 
 <string-array name="english_week_string_array">
@@ -82,4 +82,214 @@
 
 <string name="simple">Simple style</string>
 <string name="simple_desc">Simple calendar</string>
+    <string-array name="lunar_first_of_month">
+        <item>Tết </item>
+        <item>Tháng 2</item>
+        <item>Tháng 3</item>
+        <item>Tháng 4</item>
+        <item>Tháng 5</item>
+        <item>Tháng 6</item>
+        <item>Tháng 7</item>
+        <item>Tháng 8</item>
+        <item>Tháng 9</item>
+        <item>Tháng 10</item>
+        <item>Tháng 11</item>
+        <item>Tháng 12</item>
+    </string-array>
+
+    <string-array name="tradition_festival">
+        <item>Năm mới</item>
+        <item>0101Tết</item>
+        <item>0115Nguyên Tiêu</item>
+        <item>0505Đoan ngọ</item>
+        <item>0707Thất tịch</item>
+        <item>0815Trung Thu</item>
+        <item>0909Trùng cửu</item>
+    </string-array>
+
+    <string-array name="lunar_str">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="solar_festival" tools:ignore="InconsistentArrays">
+        <item>0101Tết</item>
+        <item>0214Valentine</item>
+        <item>0308Ngày phụ nữ</item>
+        <item>0430Giải phóng</item>
+        <item>0315Nguyên tiêu</item>
+        <item>0401Cá tháng tư</item>
+        <item>0501Quốc tế lao động</item>
+        <item>0601Tết thiếu nhi</item>
+        <item>0902 Quốc khánh</item>
+        <item>1222TL Quân đội</item>
+        <item>1120Nhà giáo</item>
+        <item>0727Liệt sỹ</item>
+        <item>1031Halloween</item>
+        <item>1111Độc thân</item>
+        <item>1224Giáng sinh</item>
+        <item>1225Noel</item>
+    </string-array>
+
+    <string-array name="solar_term">
+        <item>Xuân phân</item>
+        <item>Tết thanh minh</item>
+        <item>Cốc vũ</item>
+        <item>Lập hạ</item>
+        <item>Tiểu mãn</item>
+        <item>Mang chủng</item>
+        <item>Hạ chí</item>
+        <item>Tiểu thử</item>
+        <item>Đại thử</item>
+        <item>Lập thu</item>
+        <item>Xử thử</item>
+        <item>Bạch lộ</item>
+        <item>Thu phân</item>
+        <item>Hàn lộ</item>
+        <item>Sương giáng</item>
+        <item>Lập đông</item>
+        <item>Tiểu thuyết</item>
+        <item>Đại tuyết</item>
+        <item>Đông chí</item>
+        <item>Tiểu hàn</item>
+        <item>Đại hàn</item>
+        <item>Lập xuân</item>
+        <item>Vũ thủy</item>
+        <item>Kinh trập</item>
+    </string-array>
+
+    <string-array name="special_festivals">
+        <item>Me Day</item>
+        <item>Cha Day</item>
+        <item>Thank</item>
+    </string-array>
+
+    <string name="sun">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+
+    <string-array name="week_string_array">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+
+    <string-array name="year_view_week_string_array">
+        <item>S</item>
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>T</item>
+        <item>F</item>
+        <item>S</item>
+    </string-array>
+
+    <string-array name="month_string_array">
+        <item>JAN</item>
+        <item>FEB</item>
+        <item>MAR</item>
+        <item>APR</item>
+        <item>MAY</item>
+        <item>JUN</item>
+        <item>JUL</item>
+        <item>AUG</item>
+        <item>SEP</item>
+        <item>OCT</item>
+        <item>NOV</item>
+        <item>DEC</item>
+    </string-array>
+
+    <integer-array name="trunk_integer_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </integer-array>
+
+    <string-array name="trunk_string_array">
+        <item>Tân</item>
+        <item>Nhâm</item>
+        <item>Quý</item>
+        <item>Giáp</item>
+        <item>Ất</item>
+        <item>Bính</item>
+        <item>Đinh</item>
+        <item>Mậu</item>
+        <item>Kỷ</item>
+        <item>Canh</item>
+    </string-array>
+
+    <integer-array name="branch_integer_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </integer-array>
+
+    <string-array name="branch_string_array">
+        <item>Tý</item>
+        <item>Sửu</item>
+        <item>Dần</item>
+        <item>Mão</item>
+        <item>Thìn</item>
+        <item>Tỵ</item>
+        <item>Ngọ</item>
+        <item>Mùi</item>
+        <item>Thân</item>
+        <item>Dậu</item>
+        <item>Tuất</item>
+        <item>Hợi</item>
+
+    </string-array>
 </resources>
